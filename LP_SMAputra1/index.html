@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Kelas</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .btn {
+      padding: 15px 40px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 10px;
+      background: #2563eb;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s;
+      display: inline-block;
+    }
+    .btn:hover {
+      background: #1e40af;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .btn {
+        width: 80%;
+        font-size: 1.1rem;
+        padding: 15px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="http://sepuluh.lan:1010" class="btn">Kelas X</a>
+    <a href="http://sebelas.lan:1010" class="btn">Kelas XI</a>
+  </div>
+</body>
+</html>
